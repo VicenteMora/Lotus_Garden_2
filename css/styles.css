@@ -1,0 +1,195 @@
+h1, h2, h3, h4, h5 {
+	font-family: 'Rancho', cursive;
+	font-weight: 400;
+}
+
+p {
+	font-family: 'Gudea', sans-serif;
+	font-weight: 400;
+}
+
+hr {
+	background: url(../img/LotusCircleLogo.png) no-repeat  center;
+	clear: both;
+	max-height: 15px;
+}
+.navbar .navLogo {
+	max-height: 70px;
+}
+.navbar {
+	background-color: transparent;
+	/*background: transparent;*/
+	border-bottom: none;
+	/*border-color: transparent;*/
+}
+.callLink {
+	margin-right: 50px;
+	margin-top: 15px;
+}
+.btn-label {position: relative;left: -12px;display: inline-block;padding: 6px 12px;background: rgba(0,0,0,0.15);border-radius: 3px 0 0 3px;}
+.btn-labeled {padding-top: 0;padding-bottom: 0;}
+.btn { margin-bottom:10px; }
+.jumbotron h1 {
+	font-size: 115px;
+}
+
+.jumbotron{
+	
+	background: url(../img/lotus-3.jpg) no-repeat center center;
+	background-attachment: fixed;
+	background-size: contain;
+	height:100vh;
+	width:100vw;
+	margin-top:0px;
+	margin-bottom:8px;
+	
+
+    
+	
+}
+.hours_bg {
+	background: url(../img/symphony.png);
+	height: 200px;
+	width: 100%;
+	background-attachment: fixed;
+}
+.hours_text{
+	font-size: 55px;
+	vertical-align: middle;
+	line-height: 180px;
+
+}
+.hours1 {
+	background:url(../img/thai-rolls.jpg) no-repeat center center;
+	height:250px;
+	border-style:solid;
+	border-color:white;
+	border-width:6px;
+}
+.hours2 {
+	background:url(../img/pho.jpg) no-repeat center center;
+	height:250px;
+	border-style:solid;
+	border-color:white;
+	border-width:6px;
+}
+.hours3 {
+	background:url(../img/thai-ingredients.jpg) no-repeat center center;
+	height:250px;
+	border-style:solid;
+	border-color:white;
+	border-width:6px;
+}
+
+.hours {
+	color: white;
+	size:20px;
+	border: 8px solid white;
+	margin-top: 85px;
+}
+.map1 {
+	border: 8px solid white;
+
+}
+.storefront {
+	width:48vw;
+	height:48vh;
+}
+.menu_bg {
+	background: url(../img/menu_bg.png);
+}
+.sub_menu {
+	text-align: center;
+}
+.menu span {
+	color: #222;
+	font-size: 18px;
+}
+.menu tbody {
+	color:#999;
+	font-size: 14px;
+}
+.menu .price {
+
+    color: #2fbbb2;
+    font-size: 18px;
+    text-align: right;
+    white-space: nowrap;
+}
+.footer-distributed{
+	background: url(../img/symphony.png);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	
+
+	padding: 45px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left p{
+	color:  #8f9296;
+	font-size: 14px;
+	margin: 0;
+}
+
+/* Footer links */
+
+.footer-distributed p.footer-links{
+	font-size:18px;
+	font-weight: bold;
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-right{
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+}
+
+.footer-distributed .footer-right a{
+	/*display: inline-block;*/
+	width: 35px;
+	height: 35px;
+	
+	border-radius: 2px;
+
+	font-size: 20px;
+	
+	text-align: center;
+	line-height: 35px;
+
+	margin-left: 3px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		text-align: center;
+	}
+
+	.footer-distributed .footer-right{
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.footer-distributed .footer-left p.footer-links{
+		line-height: 1.8;
+	}
+}
+.footerLogo {
+	max-height: 90px;
+}
